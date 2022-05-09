@@ -31,7 +31,19 @@ Frontend technologies:
 - Material UI 5.4.0
 - Chart.js 2.9.4
 
-## Launch
+
+## SetUp and Launch
+
+1. Create Database  <We use Microsoft SQL Server Managment Studio >
+2. Database update based on migration < dotnet ef database update >
+
+3. Update connection string in 
+- appsettings.Development.json
+- appsettings.json
+on Your database connection
+
+Backend : run KeepMovinAPI.sln and Start aplication
+Frontend : npm start in terminal <npm install>
 
 
 
